@@ -10,7 +10,7 @@ namespace DemoApp.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Geeting ready for git! (edited from github)";
+            ViewBag.Message = "Geeting ready for git! (edited from github) branch";
 
             return View();
         }
